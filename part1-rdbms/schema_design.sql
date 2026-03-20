@@ -31,7 +31,7 @@ CREATE TABLE Orders (
     FOREIGN KEY (sales_rep_id) REFERENCES SalesReps(sales_rep_id)
 );
 
--- Sample Data (I used data from CSV itself)
+
 INSERT INTO SalesReps VALUES ('SR04', 'Kriththika', 'kriths@corp.com', 'Mumbai HQ, Nariman Point, Mumbai - 400021');
 INSERT INTO SalesReps VALUES ('SR05', 'Priya', 'priya@corp.com', 'Delhi Office, Connaught Place, New Delhi - 110001');
 INSERT INTO SalesReps VALUES ('SR06', 'Jai', 'jai@corp.com', 'Delhi Office, Connaught Place, New Delhi - 110001');
