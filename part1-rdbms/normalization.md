@@ -2,6 +2,7 @@
 
 **1. Insert Anomaly:** 
 To add a new Sales Representative (e.g., Kriththika) who hasn't made a sale yet, we would have to leave `order_id`, `customer_id`, and `product_id` as NULL. If the system requires an `order_id` for every row, we simply cannot record the new employee's details.
+
 **2. Update Anomaly:** 
 Sales Rep Anita Desai (SR02) is listed with the office address "Delhi Office, Connaught Place, New Delhi - 110001". If the Delhi office moves, we must update every single row where Anita is mentioned. Missing even one row leads to data inconsistency where the same person appears to work in two places.
 
