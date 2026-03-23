@@ -1,0 +1,46 @@
+[
+  {
+    "product_id": "ELC-001",
+    "name": "Quantum X15 Laptop",
+    "category": "Electronics",
+    "brand": "Lenovo",
+    "price": 85000,
+    "specifications": {
+      "processor": "Intel i7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "voltage": "110V-240V",
+      "warranty_period": "2 years"
+    },
+    "tags": ["gaming", "workstation", "high-performance"]
+  },
+  {
+    "product_id": "CLO-002",
+    "name": "Classic Denim Jacket",
+    "category": "Clothing",
+    "brand": "Stellar Knot",
+    "price": 3500,
+    "attributes": {
+      "size": ["S", "M", "L", "XL"],
+      "color": "Indigo",
+      "material": "98% Cotton, 2% Elastane",
+      "care_instructions": "Machine wash cold"
+    }
+  },
+  {
+    "product_id": "GRO-003",
+    "name": "Organic Almond",
+    "category": "Groceries",
+    "brand": "Nutraj",
+    "price": 250,
+    "details": {
+      "expiry_date": "2027-12-15",
+      "nutritional_info": {
+        "calories": 30,
+        "fat": "2.5g",
+        "protein": "1g"
+      },
+      "is_vegan": true
+    }
+  }
+]
