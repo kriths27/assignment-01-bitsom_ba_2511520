@@ -16,4 +16,4 @@ db.products.updateOne({ "product_id": "ELC-101" }, { "$set": { "discount_percent
 
 // OP5: createIndex() — create an index on category field and explain why
 db.products.createIndex({ "category": 1 });
-/?Reasoning: This optimizes query performance for the most common filter. Without an index, MongoDB performs a collection scan (checking each and every document). Since the catalog is partitioned by category, an index allows for targeted B-tree lookups, reducing latency.
+// Reasoning: This optimizes query performance for the most common filter. Without an index, MongoDB performs a collection scan (checking each and every document). Since the catalog is partitioned by category, an index allows for targeted B-tree lookups, reducing latency.
