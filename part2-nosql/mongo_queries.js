@@ -12,7 +12,7 @@ db.products.find({ "category": "Electronics", "price": { "$gt": 20000 } });
 db.products.find({ "category": "Groceries", "details.expiry_date": { "$lt": "2025-01-01" } });
 
 // OP4: updateOne() — add a "discount_percent" field to a specific product
-db.products.updateOne({ "product_id": "ELE-101" }, { "$set": { "discount_percent": 10 } });
+db.products.updateOne({ "product_id": "ELC-101" }, { "$set": { "discount_percent": 10 } });
 
 // OP5: createIndex() — create an index on category field and explain why
 db.products.createIndex({ "category": 1 });
